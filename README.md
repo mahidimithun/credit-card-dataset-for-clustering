@@ -1,3 +1,4 @@
+
 # Credit Card Customer Segmentation using K-Means Clustering
 
 ## Project Overview
@@ -117,6 +118,8 @@ Visualizations include:
 
 The analysis helped identify skewed features and relationships among variables.
 
+<img width="602" height="473" alt="heatmap" src="https://github.com/user-attachments/assets/f538cec8-4551-4d85-9275-df357ffb2481" />
+
 ---
 
 ## 5. Feature Scaling
@@ -136,6 +139,8 @@ Two evaluation methods were used.
 The Elbow Method measures **Within Cluster Sum of Squares (WCSS)**.
 
 The objective is to find the point where increasing the number of clusters no longer significantly reduces WCSS.
+
+<img width="652" height="422" alt="elbow" src="https://github.com/user-attachments/assets/57067921-8a6f-4c6b-9c77-582afa61f041" />
 
 ### Silhouette Score
 
@@ -162,6 +167,8 @@ Principal Component Analysis (PCA) was used to reduce the high-dimensional data 
 
 This makes it possible to visualize customer clusters on a 2D scatter plot.
 
+<img width="758" height="491" alt="segmentation " src="https://github.com/user-attachments/assets/66fec519-a66f-4fe8-8870-b24ec887661a" />
+
 ---
 
 ## 9. Cluster Analysis
@@ -176,6 +183,8 @@ Example:
 - Low activity customers
 - Installment users
 - Cash advance users
+
+<img width="922" height="605" alt="avg_values_by_cluster" src="https://github.com/user-attachments/assets/47a8603b-21e3-4be8-a6e4-5598b3190ba3" />
 
 ---
 
